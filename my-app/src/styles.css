@@ -4,3 +4,12 @@ body {
     color: #000;
     line-height: 1.5;
 }
+
+.NavLink {
+    font-size: 20px;
+    color: currentColor;
+}
+
+.NavLink__active {
+    color: palegoldenrod;
+}

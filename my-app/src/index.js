@@ -3,14 +3,17 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import 'modern-normalize/modern-normalize.css';
 import './styles.css';
+import { BrowserRouter } from 'react-router-dom';
 
 // ReactDOM.render(<App />, document.getElementById("root"));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </BrowserRouter>,
 );
 
 // содаем ссылку (пропсы - свойства компонента) тут мы создали вертуальную ссылку
